@@ -11,3 +11,6 @@ Les deux solutions que je propose sont:
 Apres ce choix, celui de l'organisation du projet, de ces limites et de ces decoupages.
 
 Enfin le codage d'une maquette simple sera effectue.
+
+Pour le C++,l'utilisation de la sfml pour la partie graphique est envisage.
+Pour le Python aucune piste n'est encore developpe.
