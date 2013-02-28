@@ -1,4 +1,4 @@
-#define VERSION_MAJOR   1
-#define VERSION_MINOR   0
-#define PROJECT_NAME    "AncientWar"
-#define EXECUTABLE_NAME "AncientWar"
+#define VERSION_MAJOR   0
+#define VERSION_MINOR   1
+#define PROJECT_NAME    "HeroicWar"
+#define EXECUTABLE_NAME "HeroicWar"
