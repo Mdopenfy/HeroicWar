@@ -1,2 +1,4 @@
-#define myproject_VERSION_MAJOR @myproject_VERSION_MAJOR@
-#define myproject_VERSION_MINOR @myproject_VERSION_MINOR@
+#define VERSION_MAJOR   @AW_VERSION_MAJOR@
+#define VERSION_MINOR   @AW_VERSION_MINOR@
+#define PROJECT_NAME    "@PROJECT_NAME@"
+#define EXECUTABLE_NAME "@EXECUTABLE_NAME@"

@@ -6,9 +6,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Version " << myproject_VERSION_MAJOR << "." << myproject_VERSION_MINOR << endl;
+    cout << "Version " << VERSION_MAJOR << "." << VERSION_MINOR << endl;
     
-    sf::RenderWindow screen(sf::VideoMode(800, 600), "myproject");
+    sf::RenderWindow screen(sf::VideoMode(800, 600), EXECUTABLE_NAME);
     
     sf::Texture Texture;
     Texture.loadFromFile("floor.jpg");
