@@ -1,0 +1,1 @@
+/usr/bin/c++   -O2 -pipe -ansi -pedantic -Wextra -Wunused -Werror -Wall -Wconversion -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Winit-self -Wwrite-strings -Wswitch-default -Wfloat-equal -Wundef   -O2 -flto -s CMakeFiles/../bin/testsfml.dir/src/main.cpp.o  -o ../bin/testsfml -rdynamic -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system 

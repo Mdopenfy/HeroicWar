@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/DATA/Prog/sfml/src/config.h
+
+/media/DATA/Prog/sfml/src/main.cpp
+config.h
+/media/DATA/Prog/sfml/src/config.h
+iostream
+-
+SFML/Graphics.hpp
+-
+
