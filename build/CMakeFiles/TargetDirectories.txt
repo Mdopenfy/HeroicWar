@@ -1,1 +1,0 @@
-/media/DATA/Prog/sfml/build/CMakeFiles/../bin/testsfml.dir
