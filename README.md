@@ -1,4 +1,4 @@
-Wh-project
+HeroicWar
 ==========
 
 Tentative de projet avec Bruno
