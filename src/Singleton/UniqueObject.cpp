@@ -8,23 +8,16 @@
 
 class UniqueObject : public Singleton<UniqueObject>
 {
-      friend class Singleton<UniqueObject>;
+    friend class Singleton<UniqueObject>;
 
     private:
-     
         UniqueObject () : _value (0) { }
         ~UniqueObject () { }
-    
+                              
     public:
-    
         void setValue (int val) { _value = val; }
         int getValue () { return _value; }
-        //UniqueObject* getInstance()
-        //{ 
-          //  return Singleton<UniqueObject>::getInstance();
-        //}
-    
+                                                                               
     private:
-    
         int _value;
 };
