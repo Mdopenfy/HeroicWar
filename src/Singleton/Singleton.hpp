@@ -4,7 +4,7 @@
 //
 /////////////////////////////////////////////////////////////////////////////
 
-#include <iostream>
+#include <cstddef>
 
 template <typename T>
 class Singleton
@@ -12,21 +12,14 @@ class Singleton
     protected:
 
         Singleton () { }
-        ~Singleton ()  { std::cout << "destroying singleton." << std::endl; }
+        ~Singleton ()  { }
 
     public:
 
         static T *getInstance ()
         {
             if (NULL == _singleton)
-            {
-                std::cout << "creating singleton." << std::endl;
                 _singleton = new T;
-            }
-            else
-            {
-                std::cout << "singleton already created!" << std::endl;
-            }
              
         return (static_cast<T*> (_singleton));
         }
@@ -41,6 +34,11 @@ class Singleton
             }   
         }
         
+        static bool exist()
+        {
+            return (_singleton != NULL);
+        }
+
     private:
         
         static T *_singleton;

@@ -19,6 +19,10 @@ class UniqueObject : public Singleton<UniqueObject>
     
         void setValue (int val) { _value = val; }
         int getValue () { return _value; }
+        //UniqueObject* getInstance()
+        //{ 
+          //  return Singleton<UniqueObject>::getInstance();
+        //}
     
     private:
     

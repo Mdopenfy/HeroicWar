@@ -10,9 +10,12 @@ int main()
     cout << "Version " << VERSION_MAJOR << "." << VERSION_MINOR << endl;
     
     UniqueObject *obj = UniqueObject::getInstance();
+    UniqueObject *obj2 = UniqueObject::getInstance();
 
     cout<<obj->getValue()<<endl;
     obj->setValue(5);
+    cout<<obj->getValue()<<endl;
+    obj2->setValue(6);
     cout<<obj->getValue()<<endl;
 
     sf::RenderWindow screen(sf::VideoMode::getFullscreenModes()[0], EXECUTABLE_NAME);
